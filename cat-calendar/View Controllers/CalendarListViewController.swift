@@ -17,7 +17,7 @@ class CalendarListViewController: UITableViewController {
     
     // MARK: Private Properties
     private let calendarListTableViewCellIdentifier = "CalendarListTableViewCellIdentifier"
-    private var calendarListViewModel = CalendarListViewModel(catImageService: CatImageService())
+    private var calendarListViewModel = CalendarListViewModel(currentDate: Date(), catImageService: CatImageService())
     private var calendarListItems: [CalendarListItem] = []
     private lazy var dataSource = makeDataSource()
     

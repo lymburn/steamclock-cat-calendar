@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		2640AC8628BDFFF500260A8E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC8528BDFFF500260A8E /* Errors.swift */; };
 		2640AC8828BE0C5E00260A8E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC8728BE0C5E00260A8E /* Endpoints.swift */; };
+		2640AC8B28BE252E00260A8E /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC8A28BE252E00260A8E /* DateExtensionTests.swift */; };
+		2640AC8E28BE271000260A8E /* CalendarListItemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC8D28BE271000260A8E /* CalendarListItemViewModelTests.swift */; };
+		2640AC9128BE293600260A8E /* CatImageServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC9028BE293600260A8E /* CatImageServiceStub.swift */; };
+		2640AC9528BE2BBC00260A8E /* CalendarListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640AC9428BE2BBC00260A8E /* CalendarListViewModelTests.swift */; };
 		269E85A728B5BE9F00E0EF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85A628B5BE9F00E0EF6E /* AppDelegate.swift */; };
 		269E85A928B5BE9F00E0EF6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85A828B5BE9F00E0EF6E /* SceneDelegate.swift */; };
 		269E85AB28B5BE9F00E0EF6E /* CalendarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85AA28B5BE9F00E0EF6E /* CalendarListViewController.swift */; };
 		269E85B028B5BEA200E0EF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E85AF28B5BEA200E0EF6E /* Assets.xcassets */; };
 		269E85B328B5BEA200E0EF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E85B128B5BEA200E0EF6E /* LaunchScreen.storyboard */; };
-		269E85BE28B5BEA300E0EF6E /* cat_calendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85BD28B5BEA300E0EF6E /* cat_calendarTests.swift */; };
 		269E85C828B5BEA300E0EF6E /* cat_calendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85C728B5BEA300E0EF6E /* cat_calendarUITests.swift */; };
 		269E85CA28B5BEA300E0EF6E /* cat_calendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85C928B5BEA300E0EF6E /* cat_calendarUITestsLaunchTests.swift */; };
 		269E85DD28B5C57C00E0EF6E /* CatImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E85DC28B5C57C00E0EF6E /* CatImageModel.swift */; };
@@ -47,6 +50,10 @@
 /* Begin PBXFileReference section */
 		2640AC8528BDFFF500260A8E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		2640AC8728BE0C5E00260A8E /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2640AC8A28BE252E00260A8E /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		2640AC8D28BE271000260A8E /* CalendarListItemViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListItemViewModelTests.swift; sourceTree = "<group>"; };
+		2640AC9028BE293600260A8E /* CatImageServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageServiceStub.swift; sourceTree = "<group>"; };
+		2640AC9428BE2BBC00260A8E /* CalendarListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListViewModelTests.swift; sourceTree = "<group>"; };
 		269E85A328B5BE9F00E0EF6E /* cat-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cat-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E85A628B5BE9F00E0EF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		269E85A828B5BE9F00E0EF6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +62,6 @@
 		269E85B228B5BEA200E0EF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269E85B428B5BEA200E0EF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E85B928B5BEA300E0EF6E /* cat-calendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cat-calendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		269E85BD28B5BEA300E0EF6E /* cat_calendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat_calendarTests.swift; sourceTree = "<group>"; };
 		269E85C328B5BEA300E0EF6E /* cat-calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cat-calendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E85C728B5BEA300E0EF6E /* cat_calendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat_calendarUITests.swift; sourceTree = "<group>"; };
 		269E85C928B5BEA300E0EF6E /* cat_calendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat_calendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -94,6 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2640AC8928BE251E00260A8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2640AC8A28BE252E00260A8E /* DateExtensionTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2640AC8C28BE26FC00260A8E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				2640AC8D28BE271000260A8E /* CalendarListItemViewModelTests.swift */,
+				2640AC9428BE2BBC00260A8E /* CalendarListViewModelTests.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		2640AC8F28BE28CA00260A8E /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				2640AC9028BE293600260A8E /* CatImageServiceStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		269E859A28B5BE9F00E0EF6E = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +165,9 @@
 		269E85BC28B5BEA300E0EF6E /* cat-calendarTests */ = {
 			isa = PBXGroup;
 			children = (
-				269E85BD28B5BEA300E0EF6E /* cat_calendarTests.swift */,
+				2640AC8F28BE28CA00260A8E /* Stubs */,
+				2640AC8C28BE26FC00260A8E /* View Models */,
+				2640AC8928BE251E00260A8E /* Extensions */,
 			);
 			path = "cat-calendarTests";
 			sourceTree = "<group>";
@@ -360,7 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E85BE28B5BEA300E0EF6E /* cat_calendarTests.swift in Sources */,
+				2640AC9528BE2BBC00260A8E /* CalendarListViewModelTests.swift in Sources */,
+				2640AC8B28BE252E00260A8E /* DateExtensionTests.swift in Sources */,
+				2640AC8E28BE271000260A8E /* CalendarListItemViewModelTests.swift in Sources */,
+				2640AC9128BE293600260A8E /* CatImageServiceStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

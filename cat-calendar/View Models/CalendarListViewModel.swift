@@ -11,12 +11,13 @@ import UIKit
 class CalendarListViewModel {
     // MARK: Private Properties
     private let catImageService: CatImageServiceType
-    private let currentDaysOfWeek = Date().getDaysOfWeek()
+    private let currentDate: Date
     
     
     // MARK: Initialization
-    init(catImageService: CatImageServiceType) {
+    init(currentDate: Date, catImageService: CatImageServiceType) {
         self.catImageService = catImageService
+        self.currentDate = currentDate
     }
 }
 
@@ -33,6 +34,7 @@ extension CalendarListViewModel {
             let downloadedCatImages: [UIImage] = try await catImageService.downloadCatImages(forUrls: catImageUrlStrings)
             
             // Check that the number of cat images and days match
+            let currentDaysOfWeek = currentDate.getDaysOfWeek()
             guard catImageModels.count == currentDaysOfWeek.count else { throw CalendarListViewModelError.catImageModelsCountMismatch }
             guard downloadedCatImages.count == currentDaysOfWeek.count else { throw CalendarListViewModelError.downloadedCatImagesCountMismatch }
             
